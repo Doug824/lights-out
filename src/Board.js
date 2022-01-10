@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Cell from "./Cell";
 import "./Board.css";
 
-function Board({ nrows = 5, ncols = 7, chanceLightStartsOn = 0.25 }) {
+function Board({ nrows = 5, ncols = 5, chanceLightStartsOn = 0.25 }) {
   const [board, setBoard] = useState(createBoard());
 
 
