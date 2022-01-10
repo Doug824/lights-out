@@ -6,9 +6,6 @@ describe("<Cell /> rendering", function() {
   let container;
   
   beforeEach(function() {
-    // add a TR to the document created by the test
-    // to avoid warnings in the test output
-    // about appending a TD to a DIV
     let tr = document.createElement("tr");
     container = document.body.appendChild(tr);
   });
