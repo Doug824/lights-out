@@ -46,7 +46,7 @@ function Board({ nrows = 5, ncols = 5, chanceLightStartsOn = 0.25 }) {
   }
 
   if (hasWon()) {
-    return <div>Congrats! You Did It!</div>;
+    return <div className="Neon">Congrats! You Did It!</div>;
   }
 
 
